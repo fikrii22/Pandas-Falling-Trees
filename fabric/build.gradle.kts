@@ -21,10 +21,10 @@ repositories {
 }
 
 dependencies {
-	modImplementation("net.fabricmc:fabric-loader:${properties["fabric_version"]}")
+	modImplementation "curse.maven:pandas-falling-trees-880630:6579954"
 	modApi("net.fabricmc.fabric-api:fabric-api:${properties["fabric_api_version"]}")
 
-	modImplementation("dev.pandasystems:pandalib-fabric:${properties["deps_pandalib_version"]}")
+	modImplementation "curse.maven:pandas-falling-trees-880630:6579954"
 	modApi("dev.architectury:architectury-fabric:${properties["deps_architectury_version"]}")
 	modApi("com.terraformersmc:modmenu:${properties["deps_modmenu_version"]}")
 
